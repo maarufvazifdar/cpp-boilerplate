@@ -5,14 +5,15 @@ C++ project that keeps track of student names computes grades based on their mar
 
 ## Standard install via command-line
 ```
-git clone --recursive https://github.com/maarufvazifdar/cpp-boilerplate.git
+git clone -b maarufvazifdar_117509717_week3 https://github.com/maarufvazifdar/cpp-boilerplate.git
+
 cd <path to repository>
 mkdir build
 cd build
 cmake ..
 make
 Run tests: ./test/cpp-test
-Run program: ./app/Accelerated C++ 3-5
+Run program: ./app/AcceleratedC++_3-5
 ```
 
 ## Building for code coverage (for assignments beginning in Week 4)
@@ -24,7 +25,7 @@ make code_coverage
 ```
 This generates a index.html page in the build/coverage sub-directory that can be viewed locally in a web browser.
 
-## Working with Eclipse IDE ##
+## Working with Eclipse IDE
 
 ## Installation
 
@@ -32,22 +33,23 @@ In your Eclipse workspace directory (or create a new one), checkout the repo (an
 ```
 mkdir -p ~/workspace
 cd ~/workspace
-git clone --recursive https://github.com/maarufvazifdar/cpp-boilerplate.git
+git clone --recursive -b maarufvazifdar_117509717_week3 https://github.com/maarufvazifdar/cpp-boilerplate.git
+
 ```
 
 In your work directory, use cmake to create an Eclipse project for an [out-of-source build] of cpp-boilerplate
 
 ```
 cd ~/workspace
-mkdir -p Accelerated C++ 3-5
-cd Accelerated C++ 3-5
-cmake -G "Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug -D CMAKE_ECLIPSE_VERSION=4.7.0 -D CMAKE_CXX_COMPILER_ARG1=-std=c++14 ../cpp-boilerplate/
+mkdir -p AcceleratedC++_3-5
+cd AcceleratedC++_3-5
+cmake -G "Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug -D CMAKE_ECLIPSE_VERSION=4.7.0 -D CMAKE_CXX_COMPILER_ARG1=-std=c++14 ../cpp-boilerplate/Week_3/AcceleratedC++_3-5
 ```
 
 ## Import
 
 Open Eclipse, go to File -> Import -> General -> Existing Projects into Workspace -> 
-Select "Accelerated C++ 3-5" directory created previously as root directory -> Finish
+Select "AcceleratedC++_3-5" directory created previously as root directory -> Finish
 
 # Edit
 
@@ -56,15 +58,15 @@ Source files may be edited under the "[Source Directory]" label in the Project E
 
 ## Build
 
-To build the project, in Eclipse, unfold Accelerated C++ 3-5 project in Project Explorer,
+To build the project, in Eclipse, unfold AcceleratedC++_3-5 project in Project Explorer,
 unfold Build Targets, double click on "all" to build all projects.
 
 ## Run
 
-1. In Eclipse, right click on the Accelerated C++ 3-5 in Project Explorer,
+1. In Eclipse, right click on the AcceleratedC++_3-5 in Project Explorer,
 select Run As -> Local C/C++ Application
 
-2. Choose the binaries to run (e.g. Accelerated C++ 3-5, cpp-test for unit testing)
+2. Choose the binaries to run (e.g. AcceleratedC++_3-5, cpp-test for unit testing)
 
 
 ## Debug
@@ -73,8 +75,8 @@ select Run As -> Local C/C++ Application
 1. Set breakpoint in source file (i.e. double click in the left margin on the line you want 
 the program to break).
 
-2. In Eclipse, right click on the Accelerated C++ 3-5 in Project Explorer, select Debug As -> 
-Local C/C++ Application, choose the binaries to run (e.g. Accelerated C++ 3-5).
+2. In Eclipse, right click on the AcceleratedC++_3-5 in Project Explorer, select Debug As -> 
+Local C/C++ Application, choose the binaries to run (e.g. AcceleratedC++_3-5).
 
 3. If prompt to "Confirm Perspective Switch", select yes.
 
