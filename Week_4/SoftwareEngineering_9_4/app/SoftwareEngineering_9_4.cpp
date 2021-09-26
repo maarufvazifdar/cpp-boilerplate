@@ -1,5 +1,5 @@
 /**
- * @file SoftwareEngineering_4_9.cpp
+ * @file SoftwareEngineering_9_4.cpp
  * @brief A C++ program to prints out the index of the first
  *        occurrence of  a  substring from a main string.
  *
