@@ -1,8 +1,7 @@
-# Software Engineering 3_10
+# Software Engineering 4_9
 ## Overview
 
-C++ project to grade students, update grades and compute the grade point average for the class.
-
+C++ program to prints out the index of the first occurrence of  a  substring from a main string.
 ## Standard install via command-line
 ```
 git clone -b maarufvazifdar_117509717 https://github.com/maarufvazifdar/cpp-boilerplate.git
@@ -13,7 +12,7 @@ cd build
 cmake ..
 make
 Run tests: ./test/cpp-test
-Run program: ./app/SoftwareEngineering_3_10
+Run program: ./app/SoftwareEngineering_4_9
 ```
 
 ## Building for code coverage (for assignments beginning in Week 4)
@@ -41,15 +40,15 @@ In your work directory, use cmake to create an Eclipse project for an [out-of-so
 
 ```
 cd ~/workspace
-mkdir -p SoftwareEngineering_3_10
-cd SoftwareEngineering_3_10
-cmake -G "Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug -D CMAKE_ECLIPSE_VERSION=4.7.0 -D CMAKE_CXX_COMPILER_ARG1=-std=c++14 ../cpp-boilerplate/Week_3/SoftwareEngineering_3_10
+mkdir -p SoftwareEngineering_4_9
+cd SoftwareEngineering_4_9
+cmake -G "Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug -D CMAKE_ECLIPSE_VERSION=4.7.0 -D CMAKE_CXX_COMPILER_ARG1=-std=c++14 ../cpp-boilerplate/Week_4/SoftwareEngineering_4_9
 ```
 
 ## Import
 
 Open Eclipse, go to File -> Import -> General -> Existing Projects into Workspace -> 
-Select "SoftwareEngineering_3_10" directory created previously as root directory -> Finish
+Select "SoftwareEngineering_4_9" directory created previously as root directory -> Finish
 
 # Edit
 
@@ -58,15 +57,15 @@ Source files may be edited under the "[Source Directory]" label in the Project E
 
 ## Build
 
-To build the project, in Eclipse, unfold SoftwareEngineering_3_10 project in Project Explorer,
+To build the project, in Eclipse, unfold SoftwareEngineering_4_9 project in Project Explorer,
 unfold Build Targets, double click on "all" to build all projects.
 
 ## Run
 
-1. In Eclipse, right click on the SoftwareEngineering_3_10 in Project Explorer,
+1. In Eclipse, right click on the SoftwareEngineering_4_9 in Project Explorer,
 select Run As -> Local C/C++ Application
 
-2. Choose the binaries to run (e.g. SoftwareEngineering_3_10, cpp-test for unit testing)
+2. Choose the binaries to run (e.g. SoftwareEngineering_4_9, cpp-test for unit testing)
 
 
 ## Debug
@@ -75,8 +74,8 @@ select Run As -> Local C/C++ Application
 1. Set breakpoint in source file (i.e. double click in the left margin on the line you want 
 the program to break).
 
-2. In Eclipse, right click on the SoftwareEngineering_3_10 in Project Explorer, select Debug As -> 
-Local C/C++ Application, choose the binaries to run (e.g. SoftwareEngineering_3_10).
+2. In Eclipse, right click on the SoftwareEngineering_4_9 in Project Explorer, select Debug As -> 
+Local C/C++ Application, choose the binaries to run (e.g. SoftwareEngineering_4_9).
 
 3. If prompt to "Confirm Perspective Switch", select yes.
 

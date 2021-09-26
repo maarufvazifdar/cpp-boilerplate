@@ -5,7 +5,7 @@ C++ project to concatenate a vector of strings to a single string.
 
 ## Standard install via command-line
 ```
-git clone -b maarufvazifdar_117509717_week3 https://github.com/maarufvazifdar/cpp-boilerplate.git
+git clone -b maarufvazifdar_117509717 https://github.com/maarufvazifdar/cpp-boilerplate.git
 
 cd <path to repository>
 mkdir build
@@ -33,7 +33,7 @@ In your Eclipse workspace directory (or create a new one), checkout the repo (an
 ```
 mkdir -p ~/workspace
 cd ~/workspace
-git clone --recursive -b maarufvazifdar_117509717_week3 https://github.com/maarufvazifdar/cpp-boilerplate.git
+git clone --recursive -b maarufvazifdar_117509717 https://github.com/maarufvazifdar/cpp-boilerplate.git
 
 ```
 
