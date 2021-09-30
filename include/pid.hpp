@@ -8,7 +8,6 @@
 #include<iostream>
 #include<math.h>
 
-
 class PIDController{
     public:
         PIDController(double Kp, double Ki, double Kd, double dt, double max, double min);

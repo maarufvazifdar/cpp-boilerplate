@@ -4,6 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ---
 A program to compute PID values for a system.
+Refer the UML diagram and the activity diagrams for a basic overview of the programm flow.
 
 Part B: Maaruf - Driver, Rishabh - Navigator
 ## Overview
@@ -16,6 +17,7 @@ Simple starter C++ project with:
 - coveralls
 - cpplint
 - cppcheck
+- git version control
 
 ## Standard install via command-line
 ```
