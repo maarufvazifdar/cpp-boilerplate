@@ -12,5 +12,3 @@ TEST(PIDTest,test2){
   double output = pid.updatePIDParameters(0,0,0,0,0);
   EXPECT_EQ(2,output);
 }
-
-}
