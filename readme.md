@@ -1,19 +1,25 @@
-PID_Controller
+# PID_Controller
 [![Build Status](https://app.travis-ci.com/maarufvazifdar/cpp-boilerplate.svg?branch=master)](https://app.travis-ci.com/maarufvazifdar/cpp-boilerplate)
 [![Coverage Status](https://coveralls.io/repos/github/maarufvazifdar/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/maarufvazifdar/cpp-boilerplate?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ---
+A program to compute PID values for a system.
 
+Part B: Maaruf - Driver, Rishabh - Navigator
 ## Overview
 
 Simple starter C++ project with:
 
 - cmake
 - googletest
+- travis
+- coveralls
+- cpplint
+- cppcheck
 
 ## Standard install via command-line
 ```
-git clone --recursive https://github.com/dpiet/cpp-boilerplate
+git clone --recursive https://github.com/maarufvazifdar/cpp-boilerplate
 cd <path to repository>
 mkdir build
 cd build
