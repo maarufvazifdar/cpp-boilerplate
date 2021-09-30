@@ -1,5 +1,5 @@
 PID_Controller
-[![Build Status](https://app.travis-ci.com/maarufvazifdar/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/maarufvazifdar/cpp-boilerplate)
+[![Build Status](https://app.travis-ci.com/maarufvazifdar/cpp-boilerplate.svg?branch=master)](https://app.travis-ci.com/maarufvazifdar/cpp-boilerplate)
 [![Coverage Status](https://coveralls.io/repos/github/maarufvazifdar/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/maarufvazifdar/cpp-boilerplate?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ---
