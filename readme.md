@@ -1,6 +1,7 @@
 # C++ Boilerplate
-[![Build Status](https://travis-ci.org/dpiet/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/dpiet/cpp-boilerplate)
-[![Coverage Status](https://coveralls.io/repos/github/dpiet/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/dpiet/cpp-boilerplate?branch=master)
+[![Build Status](https://travis-ci.org/maarufvazifdar/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/maarufvazifdar/cpp-boilerplate)
+[![Coverage Status](https://coveralls.io/repos/github/maarufvazifdar/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/maarufvazifdar/cpp-boilerplate?branch=master)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ---
 
 ## Overview
