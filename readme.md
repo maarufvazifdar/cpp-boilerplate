@@ -3,13 +3,16 @@
 [![Coverage Status](https://coveralls.io/repos/github/maarufvazifdar/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/maarufvazifdar/cpp-boilerplate?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ---
-A program to compute PID values for a system.
-Refer the UML diagram and the activity diagrams for a basic overview of the programm flow.
 
-Part B: Maaruf - Driver, Rishabh - Navigator
+## Authors
+Part B: 
+- Maaruf - Driver
+- Rishabh - Navigator
 ## Overview
 
-Simple starter C++ project with:
+A program to compute PID values for a system.
+Refer the UML diagram and the activity diagrams for a basic overview of the programm flow.
+## Tools used:
 
 - cmake
 - googletest
