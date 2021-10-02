@@ -4,9 +4,10 @@
  * @author Rishabh Mukund
  * @brief A class to compute PID values for a system.
  * @version 1
- * @copyright Group 6 TDD assignment.
  * @date 09/30/2021
+ * Copyright [2021] <Pair B>
  */
+
 #include<iostream>
 #include<pid.hpp>
 
@@ -16,8 +17,9 @@
  *  @return void
  */
 
-PID::PID(double Kp, double Ki, double Kd, double dt, double max, double min){
-}
+// PID::PID(double Kp, double Ki, double Kd, double dt, double min, double max) {
+  
+// }
 
 /** @brief  A member function to calculate the PID values based on the current
  *          velocity and required velocity
@@ -26,29 +28,66 @@ PID::PID(double Kp, double Ki, double Kd, double dt, double max, double min){
  *  @return pTerm + iTerm + dTerm 
  */
 
-double PID::calculatePID(double cur_vel, double req_vel){
-    return 1;
+double PID::getKp() {
+  return _Kp;
+  return 0;
+}
 
-    // double last_value = 0;
+double PID::getKi() {
+  return _Ki;
+  return 0;
+}
 
-    // error = req_vel - cur_vel;
-    // double pTerm = Kp * error;
+double PID::getKd() {
+  return _Kd;
+  return 0;
+}
 
-    // double iTerm = 0;
-    // iTerm += Ki * error; 
-    // if (iTerm < min || iTerm > max){
-    //   std::cout << "Value out of bounds";
-    // }
+double PID::getdt() {
+  return _dt;
+  return 0;
+}
 
-    // double dTerm = Kd * (cur_vel - last_value);
-    // last_value = cur_vel;
-    // return pTerm + iTerm + dTerm;
+double PID::calculatePID(double process_value, double set_point) {
+  // Calculate Error
+  double _error = set_point - process_value;
+
+  // Proportional term
+  double pTerm = _Kp * _error;
+
+  // Integral term
+  _integral += _error * _dt;
+  double iTerm = _Ki * _integral;
+
+  // Deravitive term
+  _derivative = _error - _prev_error;
+  double dTerm = _Kd * _derivative;
+
+  // Output value
+  double output = pTerm + iTerm + dTerm;
+
+  // Constraint the output value between min and max
+  if (output > _max)
+    output = _max;
+  else if (output < _min)
+    output = _min;
+
+  _prev_error = _error;
+  return output;
+  return 11;
 }
 
 /** @brief  A member function to update the PID parameters.
  *  @param  double Kp, double Ki, double Kd, double dt, double max, double min
  *  @return void
  */
-double PID::updatePIDParameters(double Kp, double Ki, double Kd, double min, double max){
-    return 2;
+
+double PID::updateGains(double Kp, double Ki, double Kd, double dt, double min,
+                        double max) {
+  _Kp = Kp;
+  _Ki = Ki;
+  _Kd = Kd;
+  _dt = dt;
+  _min = min;
+  _max = max;
 }
